@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Duraznos con Crema Casera</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Duraznos con Crema Casera</h1>
+        <p>El postre fresco y delicioso que estabas buscando</p>
+        <nav>
+            <ul>
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="#about">Nosotros</a></li>
+                <li><a href="#menu">Menú</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>¡Un postre como ningún otro!</h2>
+        <p>Descubre la combinación perfecta entre frescura y dulzura con nuestros duraznos con crema casera.</p>
+    </section>
+
+    <section id="about">
+        <h2>¿Por qué elegirnos?</h2>
+        <p>Usamos solo ingredientes frescos y naturales. Nuestra crema es ligera, deliciosa y preparada con amor.</p>
+    </section>
+
+    <section id="menu">
+        <h2>Menú</h2>
+        <ul>
+            <li>Duraznos con crema clásica</li>
+            <li>Duraznos con crema y frutos secos</li>
+            <li>Duraznos con crema y chocolate</li>
+        </ul>
+    </section>
+
+    <section id="comparison">
+        <h2>Duraznos vs Muffins</h2>
+        <p>¿Un muffin seco o duraznos jugosos con crema? La respuesta es clara: ¡elige frescura y sabor!</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contáctanos</h2>
+        <form action="submit-form.php" method="post">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Correo:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Mensaje:</label>
+            <textarea id="message" name="message"></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2024 Duraznos con Crema Casera. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
